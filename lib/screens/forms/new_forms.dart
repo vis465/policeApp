@@ -307,12 +307,703 @@ class _newFormScreenState extends State<newFormScreen> {
                   children: [
                     // Add your "Others" form fields here
                     // For example:
-                    TextFormField(
-                      decoration: InputDecoration(labelText: 'Field 1'),
+                    Container(
+                      width: 414,
+                      height: 1761,
+                      clipBehavior: Clip.antiAlias,
+                      decoration: ShapeDecoration(
+                        color: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(25),
+                        ),
+                      ),
+                      child: Stack(
+                        children: [
+                          Positioned(
+                            left: 0,
+                            top: 0,
+                            child: Container(
+                              width: 414,
+                              height: 35,
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    left: 0,
+                                    top: 0,
+                                    child: Container(width: 414, height: 35),
+                                  ),
+
+                                  Positioned(
+                                    left: 333,
+                                    top: 13,
+                                    child: Container(
+                                      width: 14.74,
+                                      height: 12,
+                                      child: Stack(children: [
+
+                                          ]),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            left: 30,
+                            top: 162,
+                            child: Container(
+                              width: 24,
+                              height: 24,
+                              child: Stack(children: [
+
+                                  ]),
+                            ),
+                          ),
+                          Positioned(
+                            left: 90,
+                            top: 153,
+                            child: Text(
+                              'New Entry',
+                              style: TextStyle(
+                                color: Color(0xFF486EE5),
+                                fontSize: 28,
+                                fontFamily: 'Poppins',
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ),
+
+
+                          Positioned(
+                            left: 120,
+                            top: 1686,
+                            child: Container(
+                              width: 172,
+                              height: 55,
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    left: 0,
+                                    top: 0,
+                                    child: Container(
+                                      width: 172,
+                                      height: 55,
+                                      decoration: ShapeDecoration(
+                                        color: Color(0xFF486EE5),
+                                        shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.circular(10),
+                                        ),
+                                        shadows: [
+                                          BoxShadow(
+                                            color: Color(0x3F000000),
+                                            blurRadius: 15,
+                                            offset: Offset(0, 4),
+                                            spreadRadius: 0,
+                                          )
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 62.46,
+                                    top: 14.76,
+                                    child: SizedBox(
+                                      width: 55.73,
+                                      height: 27.41,
+                                      child: Text(
+                                        'save',
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 18,
+                                          fontFamily: 'Poppins',
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          Positioned(
+                            left: 0,
+                            top: 207,
+                            child: Container(
+                              width: 414,
+                              height: 1459,
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    left: 0,
+                                    top: 5,
+                                    child: Container(
+                                      width: 414,
+                                      height: 57,
+                                      decoration: BoxDecoration(color: Color(0x4C2E2E74)),
+                                    ),
+                                  ),
+
+                                  Positioned(
+                                    left: 20,
+                                    top: 590,
+                                    child: Container(
+                                      width: 375,
+                                      height: 82,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                            left: 0,
+                                            top: 32,
+                                            child: Container(
+                                              width: 374,
+                                              height: 50,
+                                              decoration: ShapeDecoration(
+                                                color: Colors.white,
+                                                shape: RoundedRectangleBorder(
+                                                  side: BorderSide(width: 0.50, color: Color(0xFFB0B0B0)),
+                                                  borderRadius: BorderRadius.circular(15),
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            child: Text(
+                                              'Profile forwarded by/பதிவு தயார் நபர்',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+
+                                  Positioned(
+                                    left: 20,
+                                    top: 467,
+                                    child: Container(
+                                      width: 374,
+                                      height: 106,
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.min,
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            width: 374,
+                                            height: 106,
+                                            child: Stack(
+                                              children: [
+                                                Positioned(
+                                                  left: 0,
+                                                  top: 56,
+                                                  child: Container(
+                                                    width: 374,
+                                                    height: 50,
+                                                    decoration: ShapeDecoration(
+                                                      color: Colors.white,
+                                                      shape: RoundedRectangleBorder(
+                                                        side: BorderSide(width: 0.50, color: Color(0xFFB0B0B0)),
+                                                        borderRadius: BorderRadius.circular(15),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ),
+                                                Positioned(
+                                                  left: 0,
+                                                  top: 0,
+                                                  child: Text(
+                                                    'Present monitering officer/\nதற்போதைய கண்காணிப்பு அதிகாரி',
+                                                    style: TextStyle(
+                                                      color: Color(0xFF777777),
+                                                      fontSize: 16,
+                                                      fontFamily: 'Poppins',
+                                                      fontWeight: FontWeight.w400,
+                                                    ),
+                                                  ),
+                                                ),
+                                                Positioned(
+                                                  left: 17,
+                                                  top: 69,
+                                                  child: Text.rich(
+                                                    TextSpan(children: [
+
+                                                        ]),
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+
+                                  Positioned(
+                                    left: 21,
+                                    top: 86,
+                                    child: Container(
+                                      width: 373,
+                                      height: 357,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            child: SizedBox(
+                                              width: 373,
+                                              child: Text(
+                                                'Involved case details/சம்பந்தப்பட்ட வழக்கு விவரங்கள்\n',
+                                                style: TextStyle(
+                                                  color: Color(0xFF777777),
+                                                  fontSize: 16,
+                                                  fontFamily: 'Poppins',
+                                                  fontWeight: FontWeight.w400,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+
+                                          Positioned(
+                                            left: 0,
+                                            top: 129,
+                                            child: Container(
+                                              width: 373,
+                                              height: 46,
+                                              decoration: BoxDecoration(color: Color(0xFFD9D9D9)),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 92,
+                                            top: 56,
+                                            child: Text(
+                                              'New Entry/புதிய பதிவு',
+                                              style: TextStyle(
+                                                color: Color(0xFF777777),
+                                                fontSize: 16,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 0,
+                                            top: 254,
+                                            child: Container(
+                                              width: 373,
+                                              height: 46,
+                                              decoration: BoxDecoration(color: Color(0xFFD9D9D9)),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 0,
+                                            top: 311,
+                                            child: Container(
+                                              width: 371,
+                                              height: 46,
+                                              child: Stack(
+                                                children: [
+                                                  formsspace,
+
+                                                  TextFormField(
+
+                                                    decoration: InputDecoration(
+                                                      labelText: 'Present Stage',
+                                                      border: OutlineInputBorder(
+                                                        borderRadius: BorderRadius.circular(15),
+                                                      ),
+                                                    ),
+                                                  ),SizedBox(height: 15),
+
+                                                  formsspace,
+                                                  Positioned(
+                                                    left: 124,
+                                                    top: 11,
+                                                    child: SizedBox(
+                                                      width: 122,
+
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 0,
+                                            top: 197,
+                                            child: Container(
+                                              width: 373,
+                                              height: 46,
+                                              child: Stack(
+                                                children: [
+                                                  formsspace,
+
+                                                  TextFormField(
+
+                                                    decoration: InputDecoration(
+                                                      labelText: 'CR no.',
+                                                      border: OutlineInputBorder(
+                                                        borderRadius: BorderRadius.circular(15),
+                                                      ),
+                                                    ),
+                                                  ),SizedBox(height: 15),
+                                                  formsspace,
+                                                  Positioned(
+                                                    left: 97,
+                                                    top: 11,
+                                                    child: SizedBox(
+                                                      width: 175,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 169,
+                                            top: 265,
+                                            child: Text(
+                                              'Gist',
+                                              style: TextStyle(
+                                                color: Color(0xFF777777),
+                                                fontSize: 16,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 131,
+                                            top: 140,
+                                            child: Text(
+                                              'Police station',
+                                              style: TextStyle(
+                                                color: Color(0xFF777777),
+                                                fontSize: 16,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 328,
+                                            top: 47,
+                                            child: Text(
+                                              '+',
+                                              style: TextStyle(
+                                                color: Color(0xFF777777),
+                                                fontSize: 28,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 20,
+                                    top: 696,
+                                    child: Container(
+                                      width: 374,
+                                      height: 106,
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.min,
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            width: 374,
+                                            child: Stack(
+                                              children: [
+
+                                                Positioned(
+                                                  left: 0,
+                                                  top: 0,
+                                                  child: Text(
+                                                    'Reason for creation/\nஉருவாக்கத்திற்கான காரணம்',
+                                                    style: TextStyle(
+                                                      color: Color(0xFF777777),
+                                                      fontSize: 16,
+                                                      fontFamily: 'Poppins',
+                                                      fontWeight: FontWeight.w400,
+                                                    ),
+                                                  ),
+
+                                                ),
+                                                formsspace,
+
+                                                TextFormField(
+
+                                                  decoration: InputDecoration(
+
+                                                    border: OutlineInputBorder(
+                                                      borderRadius: BorderRadius.circular(15),
+                                                    ),
+                                                  ),
+                                                ),SizedBox(height: 15),
+
+                                                formsspace,
+                                              ],
+
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+
+                                  ),
+
+                                  Positioned(
+                                    left: 20,
+                                    top: 826,
+                                    child: Container(
+                                      width: 375,
+                                      height: 82,
+                                      child: Stack(
+                                        children: [
+                                          formsspace,
+
+                                          TextFormField(
+
+                                            decoration: InputDecoration(
+                                              labelText: 'Profile Forwarded by',
+                                              border: OutlineInputBorder(
+                                                borderRadius: BorderRadius.circular(15),
+                                              ),
+                                            ),
+                                          ),SizedBox(height: 15),
+
+                                          formsspace,
+
+                                          Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            child: Text(
+                                              'Remarks/குறிப்புரை',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 20,
+                                    top: 932,
+                                    child: Container(
+                                      width: 374,
+                                      height: 106,
+                                      padding: const EdgeInsets.only(right: 2, bottom: 34),
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.min,
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                        children: [
+                                          Text(
+                                            'Last visit of other state/\nவெளி மாநிலத்திற்கான கடைசி பயணத்தின்\n விவரங்கள்',
+                                            style: TextStyle(
+                                              color: Color(0xFF777777),
+                                              fontSize: 16,
+                                              fontFamily: 'Poppins',
+                                              fontWeight: FontWeight.w400,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 20,
+                                    top: 1080,
+                                    child: Container(
+                                      width: 374,
+                                      height: 106,
+                                      padding: const EdgeInsets.only(right: 5, bottom: 34),
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.min,
+                                        mainAxisAlignment: MainAxisAlignment.start,
+                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                        children: [
+                                          Text(
+                                            'Last visit of other country/\nவெளி நாட்டிற்கு சென்ற கடைசி பயணத்தின்\n விவரங்கள்',
+                                            style: TextStyle(
+                                              color: Color(0xFF777777),
+                                              fontSize: 16,
+                                              fontFamily: 'Poppins',
+                                              fontWeight: FontWeight.w400,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 21,
+                                    top: 1013,
+                                    child: Container(
+                                      width: 374,
+                                      height: 50,
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.min,
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                        children: [
+                                          formsspace,
+
+                                          TextFormField(
+
+                                            decoration: InputDecoration(
+                                              labelText: 'Present monitering officer',
+                                              border: OutlineInputBorder(
+                                                borderRadius: BorderRadius.circular(15),
+                                              ),
+                                            ),
+                                          ),SizedBox(height: 15),
+
+                                          formsspace,
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 21,
+                                    top: 1161,
+                                    child: Container(
+                                      width: 374,
+                                      height: 50,
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.min,
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        crossAxisAlignment: CrossAxisAlignment.center,
+                                        children: [
+                                          Container(
+                                            width: 374,
+                                            height: 50,
+                                            decoration: ShapeDecoration(
+                                              color: Colors.white,
+                                              shape: RoundedRectangleBorder(
+                                                side: BorderSide(width: 0.50, color: Color(0xFFB0B0B0)),
+                                                borderRadius: BorderRadius.circular(15),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+
+                                  Positioned(
+                                    left: 21,
+                                    top: 1228,
+                                    child: Container(
+                                      width: 375,
+                                      height: 82,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            child: Text(
+                                              'Last interrogation details/கடைசி விசாரணை \nவிவரங்கள்',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 22,
+                                    top: 1377,
+                                    child: Container(
+                                      width: 375,
+                                      height: 82,
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                            left: 0,
+                                            top: 32,
+                                            child: Container(
+                                              width: 374,
+                                              height: 50,
+                                              decoration: ShapeDecoration(
+                                                color: Colors.white,
+                                                shape: RoundedRectangleBorder(
+                                                  side: BorderSide(width: 0.50, color: Color(0xFFB0B0B0)),
+                                                  borderRadius: BorderRadius.circular(15),
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                          Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            child: Text(
+                                              'Present Photos/தற்போதைய புகைப்படங்கள்',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontFamily: 'Poppins',
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 35,
+                                    top: 1422,
+                                    child: Text(
+                                      'Click on the camera to caputre',
+                                      style: TextStyle(
+                                        color: Color(0xFF777777),
+                                        fontSize: 16,
+                                        fontFamily: 'Poppins',
+                                        fontWeight: FontWeight.w400,
+                                      ),
+                                    ),
+                                  ),
+                                  Positioned(
+                                    left: 363,
+                                    top: 1422,
+                                    child: Container(
+                                      width: 24,
+                                      height: 24,
+                                      clipBehavior: Clip.antiAlias,
+                                      decoration: BoxDecoration(),
+                                      child: Stack(children: [
+
+                                          ]),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
-                    TextFormField(
-                      decoration: InputDecoration(labelText: 'Field 2'),
-                    ),
+
                     // Add more form fields as needed
                   ],
                 ),
